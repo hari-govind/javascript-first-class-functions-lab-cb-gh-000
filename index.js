@@ -6,7 +6,9 @@ function countdown(callback){
 
 function multiplierValue(num){
   var doubler = function() {
-    return num*num;
+    return 2*num;
   }();
-  var tripler 
+  var tripler = function(){
+    return 3*num;
+  }();
 }
