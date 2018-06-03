@@ -8,4 +8,5 @@ function multiplierValue(num){
   var doubler = function() {
     return num*num;
   }();
+  var tripler 
 }
