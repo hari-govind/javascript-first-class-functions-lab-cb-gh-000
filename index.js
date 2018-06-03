@@ -5,10 +5,10 @@ function countdown(callback){
 }
 
 function multiplierValue(num){
-  return var doubler = function() {
+  var doubler = function() {
     return 2*num;
   }();
-  return var tripler = function(){
+  var tripler = function(){
     return 3*num;
   }();
 }
