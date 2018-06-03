@@ -4,6 +4,8 @@ function countdown(callback){
   },2000);
 }
 
-function multiplierValue(number){
-  var doubler = 
+function multiplierValue(num){
+  var doubler = function() {
+    return num*num;
+  }
 }
